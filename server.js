@@ -6,14 +6,14 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleone={
-    title:'articleone',
-    heading:'MY ARTICLEONE',
+var articleonet={
+    title:'article-one',
+    heading:'MY ARTICLE-ONE',
     date:'01-Oct-2016',
     content:'<p> hi this is article one .article two and article three also will represented in following pages..................</p>'
 };
 
-function createTemplate(data){
+function createTemplae(data){
     var title=data.title;
     var heading=data.heading;
     var date=data.date;
