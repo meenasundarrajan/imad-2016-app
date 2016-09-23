@@ -13,7 +13,7 @@ var articleonet={
     content:'<p> hi this is article one .article two and article three also will represented in following pages..................</p>'
 };
 
-function createTemplae(data){
+function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
     var date=data.date;
